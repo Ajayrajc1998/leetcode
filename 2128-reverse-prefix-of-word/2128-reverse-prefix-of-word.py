@@ -16,5 +16,4 @@ class Solution(object):
             reverse=reverse[::-1]
         else:
             return "".join(word)
-        print(word)
         return "".join(reverse)+"".join(word[og:])
