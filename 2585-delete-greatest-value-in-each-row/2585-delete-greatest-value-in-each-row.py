@@ -12,7 +12,6 @@ class Solution(object):
                gp.append(max(grid[i]))
                grid[i].remove(max(grid[i]))
                i+=1
-           print(gp)
            res+=max(gp)
            i=0
         return res      
