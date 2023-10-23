@@ -9,7 +9,6 @@ class Solution(object):
             flag=False
             for j in range(i+1,len(prices)):
                 if prices[i]>=prices[j]:
-                    print("Yess")
                     res.append(prices[i]-prices[j])
                     flag=True
                     break
