@@ -9,7 +9,6 @@ class Solution(object):
         """
         result=[]
         checker=[i for i in range(1,n+1)]
-        print(checker)
         i=0
         count=0
         while True:
