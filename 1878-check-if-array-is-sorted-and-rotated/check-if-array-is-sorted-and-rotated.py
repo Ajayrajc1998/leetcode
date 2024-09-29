@@ -11,7 +11,6 @@ class Solution(object):
             while rotate<len(nums):
                 val=nums.pop()
                 nums.insert(0,val)
-                print(nums)
                 if nums==sorted(nums):
                     return True
                 rotate+=1
