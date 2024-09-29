@@ -9,11 +9,8 @@ class Solution(object):
         j=0
         for i in range(1,len(s)):
             res.append(s[i])
-            print(res)
             if s[i].lower()==res[j].lower():
-                print('common')
                 if s[i]!=res[j]:
-                    print('yes')
                     res.pop()
                     res.pop()
                     j-=1
