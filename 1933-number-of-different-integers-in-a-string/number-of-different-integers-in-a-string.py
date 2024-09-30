@@ -16,9 +16,7 @@ class Solution(object):
                 dig.add(int(num))
                 dig_flag=False
                 num=''
-            print(num)
         if not word.isalpha() and dig_flag:
             dig.add(int(num))
-        print(dig)
         return len(dig)
                 
