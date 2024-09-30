@@ -6,14 +6,12 @@ class Solution(object):
         """
         max_f=-1
         max_s=-2
-        s_found=False
         for i in s:
             if i.isdigit():
                 if int(i)>max_f:
                     max_s=max_f
                     max_f=int(i)
                 if int(i)>max_s and int(i)<max_f:
-                    s_found=True
                     max_s=int(i)
         print(max_f,'first')
         print(max_s,'second')
