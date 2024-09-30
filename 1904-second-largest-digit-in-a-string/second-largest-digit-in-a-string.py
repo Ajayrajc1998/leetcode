@@ -13,6 +13,4 @@ class Solution(object):
                     max_f=int(i)
                 if int(i)>max_s and int(i)<max_f:
                     max_s=int(i)
-        print(max_f,'first')
-        print(max_s,'second')
         return max_s if max_s>-1 else -1
