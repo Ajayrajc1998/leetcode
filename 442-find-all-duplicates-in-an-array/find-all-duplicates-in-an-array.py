@@ -10,6 +10,5 @@ class Solution(object):
             if i not in d:
                 d[i]=1
             else:
-                d[i]+=1
                 res.append(i)
         return res
